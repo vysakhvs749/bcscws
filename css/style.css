@@ -233,6 +233,9 @@
 #carouselId .carousel-indicators li.active {
     background: var(--bs-primary) !important;
 }
+.car_h1{
+    font-size:60px;
+}
 
 @media (max-width: 768px) {
     .carousel-item {
@@ -249,6 +252,13 @@
         display: none;
     }
     
+    
+}
+@media (max-width: 964px) {
+
+    .car_h1{
+        font-size:30px;
+    }
 }
 
 .page-header {
